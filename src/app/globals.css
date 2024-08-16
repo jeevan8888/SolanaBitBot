@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 14px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1B1B1B;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #090909;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #090909;
+}
+
+.custom-toast {
+  background-color: #1a202c;
+  /* Change to your desired background color */
+  color: #f7fafc;
+  /* Change to your desired text color */
+  width: 400px;
+  max-width: 500px;
+}
+
+.custom-toast .toastify__toast-body {
+  display: flex;
+  align-items: center;
+}
+
+.custom-toast .toastify__close-button {
+  color: #f7fafc;
+  /* Change to your desired close button color */
+}
